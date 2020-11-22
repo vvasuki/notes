@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Vishvas&#39;s notes  | 0 Problems</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.72.0" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    
+
+    <link href="/notes/math/probability/statistics/label_prediction/0_problems/" rel="alternate" type="application/rss+xml" title="Vishvas&#39;s notes" />
+    <link href="/notes/math/probability/statistics/label_prediction/0_problems/" rel="feed" type="application/rss+xml" title="Vishvas&#39;s notes" />
+
+    <meta property="og:title" content="0 Problems" />
+<meta property="og:description" content="Aka supervised learning. There are a variety of prediction problems depending on the combination of problem components described below.
+Core problem Input and response variables A label/ target/ response/ dependent \(L\) depends on some predictor/ input/ independent variable \(X\) (a set of features/ covariates).
+Range of X and L Input space is \(D\) dimensional.
+\(range(L)\) may be a subset of a vector space. It may be continuous or discrete.
+Labeling rule sought The agent/ decision rule produced by the learning algorithm must label \(L\) some unlabeled test point(s) \(X\), after some observations/ examples/ training points \(S\)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/" />
+
+<meta itemprop="name" content="0 Problems">
+<meta itemprop="description" content="Aka supervised learning. There are a variety of prediction problems depending on the combination of problem components described below.
+Core problem Input and response variables A label/ target/ response/ dependent \(L\) depends on some predictor/ input/ independent variable \(X\) (a set of features/ covariates).
+Range of X and L Input space is \(D\) dimensional.
+\(range(L)\) may be a subset of a vector space. It may be continuous or discrete.
+Labeling rule sought The agent/ decision rule produced by the learning algorithm must label \(L\) some unlabeled test point(s) \(X\), after some observations/ examples/ training points \(S\).">
+
+<meta itemprop="wordCount" content="790">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="0 Problems"/>
+<meta name="twitter:description" content="Aka supervised learning. There are a variety of prediction problems depending on the combination of problem components described below.
+Core problem Input and response variables A label/ target/ response/ dependent \(L\) depends on some predictor/ input/ independent variable \(X\) (a set of features/ covariates).
+Range of X and L Input space is \(D\) dimensional.
+\(range(L)\) may be a subset of a vector space. It may be continuous or discrete.
+Labeling rule sought The agent/ decision rule produced by the learning algorithm must label \(L\) some unlabeled test point(s) \(X\), after some observations/ examples/ training points \(S\)."/>
+
+      
+    
+
+    <script src="/notes/webpack_dist/dir_tree-bundle.js"></script>
+    <script type="text/javascript">
+    
+    let baseURL = "https:\/\/vvasuki.github.io\/notes\/";
+    let basePath = "/" + baseURL.split("/").slice(3).join("/");
+    let siteParams = JSON.parse("{\u0022contactlink\u0022:\u0022https:\/\/github.com\/vvasuki\/notes\/issues\/new\u0022,\u0022disqusshortcode\u0022:\u0022vvasuki-site\u0022,\u0022env\u0022:\u0022production\u0022,\u0022githubeditmepathbase\u0022:\u0022https:\/\/github.com\/vvasuki\/notes\/edit\/hugo-source\/content\/\u0022,\u0022mainSections\u0022:[\u0022math\u0022],\u0022mainsections\u0022:[\u0022math\u0022],\u0022math\u0022:true}");
+    let pageDefaultsList = JSON.parse("[{\u0022scope\u0022:{\u0022pathPrefix\u0022:\u0022\u0022},\u0022values\u0022:{\u0022comments\u0022:true,\u0022layout\u0022:\u0022page\u0022,\u0022search\u0022:true,\u0022sidebar\u0022:\u0022home_sidebar\u0022}}]");
+    let sidebarsData = JSON.parse("{\u0022home_sidebar\u0022:{\u0022contents\u0022:[{\u0022url\u0022:\u0022recdir:\/\/\u0022},{\u0022contents\u0022:[{\u0022title\u0022:\u0022ज्यौतिषम्\u0022,\u0022url\u0022:\u0022..\/jyotiSham\/\u0022},{\u0022title\u0022:\u0022संस्कृतम्\u0022,\u0022url\u0022:\u0022..\/sanskrit\/\u0022},{\u0022title\u0022:\u0022मीमांसा\u0022,\u0022url\u0022:\u0022..\/mImAMsA\/\u0022},{\u0022title\u0022:\u0022Notes Home\u0022,\u0022url\u0022:\u0022..\/notes\/\u0022},{\u0022title\u0022:\u0022काव्यम्\u0022,\u0022url\u0022:\u0022..\/kAvya\/\u0022},{\u0022title\u0022:\u0022संस्काराः\u0022,\u0022url\u0022:\u0022\/..\/saMskAra\/\u0022},{\u0022title\u0022:\u0022Vishvas\u0027s home page\u0022,\u0022url\u0022:\u0022\/..\/\u0022}],\u0022title\u0022:\u0022सङ्ग्रहान्तरम्\u0022},{\u0022title\u0022:\u0022\\u003ci class=\\\u0022fas fa-hand-holding-heart\\\u0022\\u003e\\u003c\/i\\u003eDonate Via Vishvas\u0022,\u0022url\u0022:\u0022https:\/\/vvasuki.github.io\/interests\/dharma-via-vishvas\/\u0022}],\u0022title\u0022:\u0022Parts\u0022}}");
+    let autocompletePageUrl = "\/notes\/data\/pages.tsv";
+    
+    var pageRelUrlTree = {};
+</script>
+
+    <script>
+    
+    let pageVars = {};
+    pageVars.pageUrlMinusBasePath = "\/notes\/math\/probability\/statistics\/label_prediction\/0_problems\/".replace(basePath, "/");
+    pageVars.pageParams = {};
+    pageVars.pageSource = "math\/probability\/statistics\/label_prediction\/0_problems.md";
+    console.log(pageVars.pageSource);
+    var pageDefaults;
+    for (let possiblePageDefaults of pageDefaultsList) {
+      if (pageVars.pageSource.startsWith(possiblePageDefaults.scope.pathPrefix)) {
+        pageDefaults = possiblePageDefaults.values
+      }
+    }
+    
+    </script>
+    <script src="/notes/webpack_dist/main-bundle.js"></script>
+    <script src="/notes/webpack_dist/transliteration-bundle.js"></script>
+    <script src="/notes/non_webpack_js/disqus.js"></script>
+    <script src="/notes/webpack_dist/ui_lib-bundle.js"></script>
+    <link rel="stylesheet" href="/notes/css/fonts.css">
+    <link rel="stylesheet" href="/notes/css/@fortawesome/fontawesome-free/css/solid.min.css">
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
+        tex2jax: { inlineMath: [ ["\\$", "\\$"], ["\\(", "\\)"] ], displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno" },
+        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } } },
+        messageStyle: "none"
+    });
+</script>
+      <script type="text/javascript" id="MathJax-script" async
+              src="/notes/non_webpack_js/mathjax/es5/tex-chtml.js?config=TeX-AMS-MML_HTMLorMML">
+      </script>
+    
+
+    <link rel="stylesheet" href="/notes/css/@fortawesome/fontawesome-free/css/fontawesome.min.css">
+
+    
+    <link rel="alternate" hreflang="sa-Deva" href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/" />
+    <link rel="alternate" hreflang="sa-Deva" href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/?transliteration_target=devanagari" />
+    <link rel="alternate" hreflang="sa-Knda" href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/?transliteration_target=kannada" />
+    <link rel="alternate" hreflang="sa-Mlym" href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/?transliteration_target=malayalam" />
+    <link rel="alternate" hreflang="sa-Telu" href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/?transliteration_target=telugu" />
+    <link rel="alternate" hreflang="sa-Taml-t-sa-Taml-m0-superscript" href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/?transliteration_target=tamil_superscripted" />
+    <link rel="alternate" hreflang="sa-Taml" href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/?transliteration_target=tamil" />
+    <link rel="alternate" hreflang="sa-Gran" href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/?transliteration_target=grantha" />
+    <link rel="alternate" hreflang="sa-Gujr" href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/?transliteration_target=gujarati" />
+    <link rel="alternate" hreflang="sa-Orya" href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/?transliteration_target=oriya" />
+    <link rel="alternate" hreflang="sa-Beng-t-sa-Beng-m0-assamese" href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/?transliteration_target=assamese" />
+    <link rel="alternate" hreflang="sa-Beng" href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/?transliteration_target=bengali" />
+    <link rel="alternate" hreflang="sa-Guru" href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/?transliteration_target=gurmukhi" />
+    <link rel="alternate" hreflang="sa-Cyrl" href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/?transliteration_target=cyrillic" />
+    <link rel="alternate" hreflang="sa-Sinh" href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/?transliteration_target=sinhala" />
+    <link rel="alternate" hreflang="sa-Shar" href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/?transliteration_target=sharada" />
+    <link rel="alternate" hreflang="sa-Brah" href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/?transliteration_target=brahmi" />
+    <link rel="alternate" hreflang="sa-Modi" href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/?transliteration_target=modi" />
+    <link rel="alternate" hreflang="sa-Tirh" href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/?transliteration_target=tirhuta_maithili" />
+    <link rel="alternate" hreflang="sa-Latn-t-sa-Zyyy-m0-iast" href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/?transliteration_target=iast" />
+  </head>
+
+  <body class="ma0 bg-near-white">
+    
+\(
+% groupings of objects.
+\newcommand{\set}[1]{\left\{ #1 \right\}}
+\newcommand{\seq}[1]{\left(#1\right)}
+\newcommand{\ang}[1]{\langle#1\rangle}
+\newcommand{\tuple}[1]{\left(#1\right)}
+\newcommand{\size}[1]{\left| #1\right|}
+
+\newcommand{\comp}{\circ}
+
+
+% numerical shortcuts.
+\newcommand{\abs}[1]{\left| #1\right|}
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
+
+% linear algebra shortcuts.
+\newcommand{\change}{\Delta}
+\newcommand{\norm}[1]{\left\| #1\right\|}
+\newcommand{\dprod}[1]{\langle#1\rangle}
+\newcommand{\linspan}[1]{\langle#1\rangle}
+\newcommand{\conj}[1]{\overline{#1}}
+\newcommand{\der}{\frac{d{dx}}}
+\newcommand{\lap}{\Delta}
+\newcommand{\kron}{\otimes}
+\newcommand{\nperp}{\nvdash}
+
+\newcommand{\mat}[1]{\left[ \begin{smallmatrix}#1 \end{smallmatrix} \right]}
+
+% derivatives and limits
+\newcommand{\partder}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\partdern}[3]{\frac{\partial^{#3 #1}}{\partial #2^{#3}}}
+\newcommand{\gradient}{\nabla}
+\newcommand{\subdifferential}{\partial}
+
+% Arrows
+\newcommand{\diverge}{\nearrow}
+\newcommand{\notto}{\nrightarrow}
+\newcommand{\up}{\uparrow}
+\newcommand{\down}{\downarrow}
+% gets and gives are defined!
+
+% ordering operators
+\newcommand{\oleq}{\preceq}
+\newcommand{\ogeq}{\succeq}
+
+% programming and logic operators
+\newcommand{\dfn}{:=}
+\newcommand{\assign}{:=}
+\newcommand{\co}{\ co\ }
+\newcommand{\en}{\ en\ }
+
+
+% logic operators
+\newcommand{\xor}{\oplus}
+\newcommand{\Land}{\bigwedge}
+\newcommand{\Lor}{\bigvee}
+\newcommand{\finish}{\Box}
+\newcommand{\contra}{\Rightarrow \Leftarrow}
+\newcommand{\iseq}{\stackrel{_?{=}}}
+
+
+% Set theory
+\newcommand{\symdiff}{\Delta}
+\newcommand{\setdiff}{\backslash}
+\newcommand{\union}{\cup}
+\newcommand{\inters}{\cap}
+\newcommand{\Union}{\bigcup}
+\newcommand{\Inters}{\bigcap}
+\newcommand{\nullSet}{\phi}
+
+
+% graph theory
+\newcommand{\nbd}{\Gamma}
+
+% Script alphabets
+% For reals, use \Re
+
+% greek letters
+\newcommand{\eps}{\epsilon}
+\newcommand{\del}{\delta}
+\newcommand{\ga}{\alpha}
+\newcommand{\gb}{\beta}
+\newcommand{\gd}{\del}
+\newcommand{\gp}{\pi}
+\newcommand{\gf}{\phi}
+\newcommand{\gh}{\eta}
+\newcommand{\gF}{\Phi}
+\newcommand{\gl}{\lambda}
+\newcommand{\gm}{\mu}
+\newcommand{\gn}{\nu}
+\newcommand{\gr}{\rho}
+\newcommand{\gs}{\sigma}
+\newcommand{\gth}{\theta}
+\newcommand{\gx}{\xi}
+
+\newcommand{\sw}{\sigma}
+\newcommand{\SW}{\Sigma}
+\newcommand{\ew}{\lambda}
+\newcommand{\EW}{\Lambda}
+
+\newcommand{\Del}{\Delta}
+\newcommand{\gD}{\Delta}
+\newcommand{\gG}{\Gamma}
+\newcommand{\gO}{\Omega}
+\newcommand{\gS}{\Sigma}
+\newcommand{\gTh}{\Theta}
+
+% Bold english letters.
+\newcommand{\bA}{\mathbf{A}}
+\newcommand{\bB}{\mathbf{B}}
+\newcommand{\bC}{\mathbf{C}}
+\newcommand{\bD}{\mathbf{D}}
+\newcommand{\bE}{\mathbf{E}}
+\newcommand{\bF}{\mathbf{F}}
+\newcommand{\bG}{\mathbf{G}}
+\newcommand{\bH}{\mathbf{H}}
+\newcommand{\bI}{\mathbf{I}}
+\newcommand{\bJ}{\mathbf{J}}
+\newcommand{\bK}{\mathbf{K}}
+\newcommand{\bL}{\mathbf{L}}
+\newcommand{\bM}{\mathbf{M}}
+\newcommand{\bN}{\mathbf{N}}
+\newcommand{\bO}{\mathbf{O}}
+\newcommand{\bP}{\mathbf{P}}
+\newcommand{\bQ}{\mathbf{Q}}
+\newcommand{\bR}{\mathbf{R}}
+\newcommand{\bS}{\mathbf{S}}
+\newcommand{\bT}{\mathbf{T}}
+\newcommand{\bU}{\mathbf{U}}
+\newcommand{\bV}{\mathbf{V}}
+\newcommand{\bW}{\mathbf{W}}
+\newcommand{\bX}{\mathbf{X}}
+\newcommand{\bY}{\mathbf{Y}}
+\newcommand{\bZ}{\mathbf{Z}}
+
+\newcommand{\bba}{\mathbf{a}}
+\newcommand{\bbb}{\mathbf{b}}
+\newcommand{\bbc}{\mathbf{c}}
+\newcommand{\bbd}{\mathbf{d}}
+\newcommand{\bbe}{\mathbf{e}}
+\newcommand{\bbf}{\mathbf{f}}
+\newcommand{\bbg}{\mathbf{g}}
+\newcommand{\bbh}{\mathbf{h}}
+\newcommand{\bbk}{\mathbf{k}}
+\newcommand{\bbl}{\mathbf{l}}
+\newcommand{\bbm}{\mathbf{m}}
+\newcommand{\bbn}{\mathbf{n}}
+\newcommand{\bbp}{\mathbf{p}}
+\newcommand{\bbq}{\mathbf{q}}
+\newcommand{\bbr}{\mathbf{r}}
+\newcommand{\bbs}{\mathbf{s}}
+\newcommand{\bbt}{\mathbf{t}}
+\newcommand{\bbu}{\mathbf{u}}
+\newcommand{\bbv}{\mathbf{v}}
+\newcommand{\bbw}{\mathbf{w}}
+\newcommand{\bbx}{\mathbf{x}}
+\newcommand{\bby}{\mathbf{y}}
+\newcommand{\bbz}{\mathbf{z}}
+\newcommand{\0}{\mathbf{0}}
+\newcommand{\1}{\mathbf{1}}
+
+% Caligraphic english alphabet
+\newcommand{\cA}{\mathcal{A}}
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cC}{\mathcal{C}}
+\newcommand{\cD}{\mathcal{D}}
+\newcommand{\cE}{\mathcal{E}}
+\newcommand{\cF}{\mathcal{F}}
+\newcommand{\cG}{\mathcal{G}}
+\newcommand{\cH}{\mathcal{H}}
+\newcommand{\cI}{\mathcal{I}}
+\newcommand{\cJ}{\mathcal{J}}
+\newcommand{\cK}{\mathcal{K}}
+\newcommand{\cL}{\mathcal{L}}
+\newcommand{\cM}{\mathcal{M}}
+\newcommand{\cN}{\mathcal{N}}
+\newcommand{\cO}{\mathcal{O}}
+\newcommand{\cP}{\mathcal{P}}
+\newcommand{\cQ}{\mathcal{Q}}
+\newcommand{\cR}{\mathcal{R}}
+\newcommand{\cS}{\mathcal{S}}
+\newcommand{\cT}{\mathcal{T}}
+\newcommand{\cU}{\mathcal{U}}
+\newcommand{\cV}{\mathcal{V}}
+\newcommand{\cW}{\mathcal{W}}
+\newcommand{\cX}{\mathcal{X}}
+\newcommand{\cY}{\mathcal{Y}}
+\newcommand{\cZ}{\mathcal{Z}}
+
+
+% Formatting shortcuts
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\htext}[2]{\texorpdfstring{#1}{#2}}
+
+% Statistics
+\newcommand{\distr}{\sim}
+\newcommand{\stddev}{\sigma}
+\newcommand{\covmatrix}{\Sigma}
+\newcommand{\mean}{\mu}
+\newcommand{\param}{\theta}
+\newcommand{\gthEst}{\hat{\theta}}
+\newcommand{\ftr}{\phi}
+\newcommand{\est}[1]{\hat{#1}}
+
+% General utility
+\newcommand{\todo}[1]{\textbf{[TODO]}] \footnote{TODO: #1}}
+\newcommand{\tbc}{[\textbf{Incomplete}]}
+\newcommand{\chk}{[\textbf{Check}]}
+\newcommand{\why}{[\textbf{Find proof}]}
+\newcommand{\opt}[1]{\textit{#1}}
+
+\newcommand{\experience}[1]{[\textbf{Personal Experience}]: #1 \blacktriangle}
+\newcommand{\pf}[1]{[\textbf{Proof}]: #1 \Box}
+\newcommand{\core}[1]{\textbf{Core Idea}: #1 \Arrowvert}
+\newcommand{\example}[1]{\textbf{Example}: #1 \blacktriangle}
+\newcommand{\error}[1]{\textbf{Error alert}: #1 \triangle}
+\newcommand{\oprob}{[\textbf{OP}]: }
+
+
+\renewcommand{\~}{\htext{$\sim$}{~}}
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+
+\)
+
+
+
+    
+<header class="p-1 bg-yellow">
+    <nav role="navigation">
+      <div id="div_top_bar" class="row">
+        <div class="col-md-3 justify-content-start">
+          <a  href="/notes/" class="btn col border">
+            <i class="fas fa-gopuram ">Vishvas&#39;s notes <br/> 0 Problems</i>
+          </a>
+        </div>
+        <div id="div_top_bar_right" class="col-md-auto d-flex justify-content-center">
+          <form action="/notes/search">
+            <input id="titleSearchInputBox" placeholder="शीर्षिकान्विष्यताम्" name="s"><i class="btn fas fa-search "></i>
+          </form>
+          <a href="/notes/custom_site_search/"  class="btn btn-default">Full search</a>
+          <select name="transliterationDropdown" size="1" onchange="module_transliteration.updateTransliteration()">
+            <option value="devanagari" selected="">स</option>
+            <option value="iast">ā</option>
+            <option value="kannada">ಅ</option>
+            <option value="malayalam">അ</option>
+            <option value="telugu">క</option>
+            <option value="tamil_superscripted">க²</option>
+            <option value="tamil_extended">க</option>
+            <option value="grantha">𑌅</option>
+            <option value="gujarati">અ</option>
+            <option value="oriya">ଅ</option>
+            <option value="assamese">অস</option>
+            <option value="bengali">অ</option>
+            <option value="gurmukhi">ਅ</option>
+            <option value="cyrillic">пу</option>
+            <option value="sinhala">අ</option>
+            <option value="sharada">𑆑𑇀𑆰</option>
+            <option value="brahmi">𑀅</option>
+            <option value="modi">𑘦𑘻𑘚𑘲</option>
+            <option value="tirhuta_maithili">𑒁</option>
+          </select>
+        </div>
+        <div class="row col  d-flex justify-content-center">
+          <div><a  name="previousPage" href="" class="btn btn-secondary">###<i class="fas fa-caret-left"></i></a></div>
+          <div ><a name="nextPage" href="" class="btn btn-secondary"><i class="fas fa-caret-right"></i> ### </a></div>
+        </div>
+        <ul id="top-bar-right-custom" class="list-group list-group-horizontal">
+        </ul>
+      </div>
+    </nav>
+</header>
+
+    
+    <div class="row" name="contentRow">
+      
+      <aside class="col-md-3 card border " id="sidebar">
+        <div id="sidebarTitle" class="card-title bg-light-gray border d-flex justify-content-between" >
+          <a name="sidebarToggleLink" data-toggle="collapse" href="#sidebar_body" role="button" aria-expanded="true" aria-controls="sidebar_body" onclick="module_main.default.sidebarToggleHandler()">
+            Menu <i class="fas fa-caret-down"></i></a>
+        </div>
+        <nav class="card-body p-0 collapse show" id="sidebar_body">
+          <ul id="displayed_sidebar" class="list pl2 p-2 bg-yellow">
+        </ul>
+        </nav>
+      </aside>
+      <main class="col p-3" role="main">
+        
+<header class='border d-flex justify-content-between'>
+    <h1 id="0 Problems">0 Problems</h1>
+    
+    <a id="editLink" class="btn btn-primary"  href="https://github.com/vvasuki/notes/edit/hugo-source/content/math/probability/statistics/label_prediction/0_problems.md"><i class="fas fa-edit"></i></a>
+    
+</header>
+<article>
+  <aside id="toc_card" class="card border ">
+    <div id="toc_header" class="card-title border d-flex justify-content-between">
+        <a data-toggle="collapse" href="#toc_body" role="button" aria-expanded="true" aria-controls="toc_body">
+          What's in this page? <i class="fas fa-caret-down"></i> </a>
+    </div>
+    <div id="toc_body" class="card-body collapse p-0">
+      
+      <ul id="toc_ul" class="list p-0">
+      </ul>
+    </div>
+  </aside>
+  <div id="post_content">
+  <p>Aka supervised learning. There are a variety of prediction problems depending on the combination of problem components described below.</p>
+<h2 id="core-problem">Core problem</h2>
+<h3 id="input-and-response-variables">Input and response variables</h3>
+<p>A label/ target/ response/ dependent \(L\) depends on some predictor/ input/ independent variable \(X\) (a set of features/ covariates).</p>
+<h3 id="range-of-x-and-l">Range of X and L</h3>
+<p>Input space is \(D\) dimensional.</p>
+<p>\(range(L)\) may be a subset of a vector space. It may be continuous or discrete.</p>
+<h3 id="labeling-rule-sought">Labeling rule sought</h3>
+<p>The agent/ decision rule produced by the learning algorithm must label \(L\) some unlabeled test point(s) \(X\), after some observations/ examples/ training points \(S\). As for decision theory in general, such a labeling rule may be randomized or deterministic.</p>
+<h2 id="action-space">Action space</h2>
+<p>\(range(L)\) constitutes the action space in a decision theoretic view of the problem. It is possible for the action space to be expanded to include stating indecision about a label.</p>
+<h2 id="actual-phenomenon">Actual phenomenon</h2>
+<h3 id="randomized-function">Randomized function</h3>
+<p>In general, the labeling process can be seen a randomized function \(c:ran(X) \to \) the set of RV&rsquo;s over range(L).</p>
+<h3 id="volatility-in-form">Volatility in form</h3>
+<p>IN some problems, the randomized labeling process \(c\) changes with previous labelings of the labeling process ( and therefore with observations \(S\)). Eg: Predicting the position of a plane 5 seconds in the future, given its positions in the past few seconds.</p>
+<p>In many other problems, the labeling process \(c\) remains independent of observations.</p>
+<h3 id="deterministic-labeling-function">Deterministic Labeling function</h3>
+<p>For simple phenomena, a deterministic function \(c\) suffices to relate \(X\) and \(L\), so that \(L = c(X)\).</p>
+<p>If \(ran(L)\) is discrete, \(c\) is a discrete function, aka discriminant function: \(c: dom(X) \to \set{C_{k}}\).</p>
+<h4 id="features">Features</h4>
+<p>The labeling function can often be expressed using a feature mapping function \(\ftr(X)\). The various dimensions of \(ran(\ftr)\) aka features of the input.</p>
+<h3 id="general-noise-model">General noise model</h3>
+<h4 id="using-a-randomized-noise-function">Using a randomized noise function</h4>
+<p>Usually, the following model can be used to described the phenomenon: \(Y = f(X), L = g(Y)\), where \(f\) is a deterministic labeling function, \(g\) is a randomized function, called the noise function, which maps \(ran(f)\) to a random variable \(L\).</p>
+<p>\(g\) is usually considered to be symmetric around the expectation.</p>
+<h4 id="using-a-noise-variable">Using a Noise variable</h4>
+<p>Dependence of \(L\) on \(X\) can be written in terms of a deterministic noise application function \(h\) and a random noise variable \(N\), \(L = h(f(X), N)\), where \(f\) is a deterministic labeling function.</p>
+<h3 id="noise-in-case-of-vector-labels">Noise in case of vector labels</h3>
+<p>Let \(L = h(f(X), N)\) describe the dependence of \(L\) on \(X\), as described above. If \(ran(L)\) is part of a vector space, \(h()\) can often be described arithmetically.</p>
+<h4 id="additive-noise">Additive noise</h4>
+<p>An additive noise application model is common: \(L = f(X) + N\), and \(N\) is usually has a symmetric (usually normal) distribution centered around \(0\).</p>
+<h4 id="multiplicative-noise">Multiplicative noise</h4>
+<p>Multiplicative noise models of the form \(h(Y) = NY\) are also interesting. In this case, \(N\) is centered at 1.</p>
+<h2 id="example-training-points">Example/ training points</h2>
+<p>The general properties/ peculiarities of a sample (eg: correlatedness, completeness, online vs offline learning) in general is considered elsewhere; here we are concerned with peculiarities associated with samples in case of the prediction problem.</p>
+<h3 id="labeled">Labeled</h3>
+<p>Given \(N\) example points \(S = \set{(X_{i}, L_{i})}\). When such labeled examples are provided as part of the problem, the problem is called supervised learning.</p>
+<h3 id="unlabeled">Unlabeled</h3>
+<p>It is possible that we are additionally given a set \(U\) of unlabeled points. In such a case, the problem is called &lsquo;semi-supervised learning&rsquo;. The reason maybe that sometimes, easy to get data points, but expensive to label them; or maybe labels are noisy.</p>
+<h3 id="alternative-labels">Alternative labels</h3>
+<p>For some data points belonging to the input space \(ran(W)\), labels \(K_i\) may be provided. So, examples are pairs \((W_i, K_i)\). Let the underlying labeling functions be \(f_K: ran(W) \to\) RV&rsquo;s with range \(ran(K)\) and \(f_L: ran(X) \to \) RV&rsquo;s with range \(ran(L)\).</p>
+<p>When the two input spaces and labeling functions are related, this additional data helps in predicting \(L\). Aka transfer learning problem. Eg: Such examples may help deduce relevant features.</p>
+<p>In case of cross domain learning, \(ran(K) = ran(L)\), but possibly \(ran(W) \neq ran(X)\). Eg: search query result relevance identification.</p>
+<p>In case of cross category learning, \(ran(K) \neq ran(L)\).</p>
+<p>In some applications both the label range and the input space may be the same, but the classificaiton functions may still be different. Eg: Netflix movie ratings by various people.</p>
+<p>Eg application: Robot learns to stand using new legs faster using lessons learned when learning to stand using old legs.</p>
+<h2 id="distribution-on-test-points">Distribution on test points</h2>
+<p>This is an essential factor in calculating the risk of labeling rules.</p>
+<p>This &lsquo;test distribution&rsquo; usually usually is close to the training data distribution.</p>
+<h3 id="transduction-vs-induction">Transduction vs induction</h3>
+<p>If the test points are known during training: transduction; eg: semi-supervised learning: the labeling problem is called transduction.</p>
+<p>Otherwise, the labeling problem is called one of induction. This is a harder problem.</p>
+
+  </div>
+</article>
+
+
+
+
+
+
+
+<aside class="card border" id="section-tree-item-">
+    <div class="card-title bg-light-gray border d-flex justify-content-between">
+        <a href="https://vvasuki.github.io/notes/math/probability/statistics/label_prediction/0_problems/">0 Problems </a>
+        <a data-toggle="collapse" href="#section-tree-item-body-" role="button" aria-expanded="false" aria-controls="section-tree-item-body-" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+    </div>
+    <nav id="section-tree-item-body-" class="card-body p-0 collapse">
+        
+        <li>draft: false</li>
+        
+        <li>iscjklanguage: false</li>
+        
+        <li>title: 0 Problems</li>
+        
+    </nav>
+</aside>
+
+
+      </main>
+    </div>
+    <footer class="bg-yellow  p-1" role="contentinfo">
+  <div id="disqus_thread"></div>
+  <div id="div_footer_bar" class="container-fluid d-flex justify-content-between">
+    <a class="btn btn-secondary" href="https://github.com/vvasuki/notes/issues/new" >
+      प्रतिस्पन्दः
+    </a>
+    <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+    <div class="btn small border">
+      Built on 2020 Nov 22 10:54:52 UTC. (<a href="http://google.com/search?q=10%3a54%3a52%20UTC to IST">IST</a>)
+    </div>
+  <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
+  </ul>
+  </div>
+</footer>
+
+  </body>
+  <script type='text/javascript'>
+    
+    
+    
+    module_main.default.onDocumentReadyTasks();
+  </script>
+</html>
