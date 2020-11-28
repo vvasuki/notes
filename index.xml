@@ -1201,7 +1201,7 @@ Document var doc = DocumentApp.create(&#39;Hello, world!&#39;); Email  var email
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vvasuki.github.io/notes/biology/organism/health/disease/contagion/wuhan_epidemic/Infection/Apparel/</guid>
-      <description>Eye glasses - Wear any, but prefer full eye covering.  Masks  Even cloth masks help. Refer - masks4all1, masks4all2 WHO is retarded: &amp;ldquo;The WHO also recommends public mask usage during high-severity influenza pandemics – just not during this Coronavirus pandemic.&amp;rdquo;, &amp;ldquo;WHO describes a MINIMAL standard. It doesn&amp;rsquo;t mean that we couldn&amp;rsquo;t do MORE.&amp;rdquo; Errors in reasoning about masks by NN Taleb here. Suprising demo of effectiveness of masks: &amp;quot; the salon story where two infected stylists failed to infect all their 140 clients (making the probability of infection for bilateral mask wearing safely below 1% for a salon-style exposure) — we know the probability of infection for non mask wearers from tens of thousands of data points and the various R0 estimations) plus&amp;rdquo;.</description>
+      <description>Eye glasses - Wear any, but prefer full eye covering.  Masks  Even cloth masks help. Refer - masks4all1, masks4all2 WHO was retarded: &amp;ldquo;The WHO also recommends public mask usage during high-severity influenza pandemics – just not during this Coronavirus pandemic.&amp;rdquo;, &amp;ldquo;WHO describes a MINIMAL standard. It doesn&amp;rsquo;t mean that we couldn&amp;rsquo;t do MORE.&amp;rdquo; Errors in reasoning about masks by NN Taleb here.  Suprising demo of effectiveness of masks: &amp;quot; the salon story where two infected stylists failed to infect all their 140 clients (making the probability of infection for bilateral mask wearing safely below 1% for a salon-style exposure) — we know the probability of infection for non mask wearers from tens of thousands of data points and the various R0 estimations) plus&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -3214,6 +3214,15 @@ Dark oil does not indicate the need for an oil change. The way modern detergent 
       <description>Process design: Productivity and quality How to transform the shop-floor/ assembly process and the procurement/ design process to increase quantity and quality?
 Quality/ quantity trade-off When the focus is on quantity, quality often suffers, as workers are provided incentives and punishments which, focusing on quantity, largely ignore quality. Quality control is often postponed to a later stage.
 The Toyota process, observing that correcting/ tolerating mistakes can be costly, tries to ensure that they get it right the first time - workers have the ability to stop the assembly-line in order to fix a mistake when they make/ detect it.</description>
+    </item>
+    
+    <item>
+      <title>Masks</title>
+      <link>https://vvasuki.github.io/notes/biology/organism/health/disease/contagion/masks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/biology/organism/health/disease/contagion/masks/</guid>
+      <description> Masks proved very effective during Wuhan contagion. Surgical masks are effective in screening upto 99.9% compared to 3 layered cloth mask which is effective upto 86.4% according to simulations.    surgical vs cloth mask   </description>
     </item>
     
     <item>
