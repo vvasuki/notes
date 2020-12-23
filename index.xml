@@ -2075,7 +2075,7 @@ kaNAda the kashyapa author of the vaisheShika-sUtra-s.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vvasuki.github.io/notes/materials/tile/clay/</guid>
-      <description>Clay tiles  Oft turn black, collect dirt and moss. Dry very fast.  Cermaic  Ceramic tiles are made from natural clay that is mixed with water and molded. Creators apply a glaze to the tile to help protect it from water and scratches, then fire the clay in a kiln to harden it. Glazes are a glassy coat on tiles. Can use heavy metals (including lead) to generate colors and textures.</description>
+      <description>Clay tiles  Oft turn black, collect dirt and moss. Appear to dry very fast - 12% water absorption. To avoid this, glossy or matte finish sealants are available which makes the tile less water and dirt absorbent. This sealants are re-applied every 4 to 5 years .  Cermaic  Ceramic tiles are made from natural clay that is mixed with water and molded. Creators apply a glaze to the tile to help protect it from water and scratches, then fire the clay in a kiln to harden it.</description>
     </item>
     
     <item>
@@ -2764,15 +2764,6 @@ Left and right eigenpairs Also, can define left ev and ew by the relation \(xA =
       <guid>https://vvasuki.github.io/notes/economics/financial_services/banking/04_Deposit_account_services/Electronic_Fund_transfer/</guid>
       <description>ACH With ACH (Automatic clearing house), money transfer between banks is done electronically within a given country. They are commonly used to process direct deposits etc.. To use ACH, one needs to know the routing numbers/ ABA codes and the account numbers for the source and destination accounts.
 Reversal/ availability The payer’s bank also has the right to reverse the transfer within a few days (5 in USA) - so funds may not be immediately available for withdrawal.</description>
-    </item>
-    
-    <item>
-      <title>Electronic lock</title>
-      <link>https://vvasuki.github.io/notes/places/house/lock/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://vvasuki.github.io/notes/places/house/lock/</guid>
-      <description>Electronic locks  Popular brands India 2020: Alba, CP plus (Indian HQ and manufacturing, good reach, comes with 5 keys), Principle: when power is supplied, lock is unlocked. Installation video - CP Plus here. Power: 12V DC. Power: higher than 3A or 12W. So, need a power adaptor. Keeping the power supply on for longer than 8 seconds could damage the lock (CP Plus warning).  Wifi controllers Tinxy  Indian company Demo here.</description>
     </item>
     
     <item>
@@ -4085,6 +4076,15 @@ Observations about link prediction Small world problem: tenuous short links exis
       <description>&amp;ldquo;Why were the Lithuanian heathens most successful in holding out against the Christian steamroller?&amp;rdquo; [MT16]
 Thus, despite their many victories, broken by the Mongol strike and incessantly attacked by the crusades the heathen Lithuanian finally succumbed to Christianity in 1387 CE.
 &amp;ldquo;The answer we present is related to the unusual archaism of their language and potentially religion. Thus, we posit that they were in many ways parallel to the Hindus.</description>
+    </item>
+    
+    <item>
+      <title>Lock</title>
+      <link>https://vvasuki.github.io/notes/places/house/lock/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/places/house/lock/</guid>
+      <description>Features  Handedness - Just for looks, people prefer Left or Right locks so that they can be installed without being turned upside down. Inside vs outside opening: The lock tooth is curved on one side so as to slide in when pushed against an obstacle from a particular direction. This can be changed upon disassembly. Deadlocking: Explained here. Can ensure that the door does not lock or unlock automatically.  Electronic locks  Popular brands India 2020: Alba, CP plus (Indian HQ and manufacturing, good reach, comes with 5 keys).</description>
     </item>
     
     <item>
