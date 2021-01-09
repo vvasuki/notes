@@ -3102,8 +3102,9 @@ People often think about what others think about them. Social honor is a big com
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vvasuki.github.io/notes/biology/organism/health/disease/contagion/wuhan_epidemic/diagnosis/</guid>
-      <description>Presymptomatic phase Infection can be 2-14 days before symptoms appear.
-Symptoms Major  Fever Cough Shortness of breath  Minor  Tiredness, body ache, sore throat, diarrhea, vomiting stuffy nose, Loss of smell  Case studies  2020 Aug - Devanahalli, BLR. Patient and wife reported fever which came and went for about 4 days. Then, pulse oxymeter showed 92% saturation in patient. He tested positive. When on oxygen, saturation level is 95, but when he goes to toilet etc.</description>
+      <description>Presymptomatic phase Infection can be 2-14 days before symptoms appear. CDF from https://www.acpjournals.org/doi/10.7326/M20-0504 below.
+  cumulative distribution function of the covid-19 incubation period estimate   So, a 10 day quarantine catches about 90% of the cases. 11.5 days (CI, 8.2 to 15.6 days) for 97.5% of infected persons
+Symptoms Major  Fever Cough Shortness of breath  Minor  Tiredness, body ache, sore throat, diarrhea, vomiting stuffy nose, Loss of smell  Case studies  2020 Aug - Devanahalli, BLR.</description>
     </item>
     
     <item>
