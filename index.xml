@@ -49,7 +49,7 @@ Overcoming a single prey A prey is usually overcome using asphyxiation, bleeding
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vvasuki.github.io/notes/computing/programming/dev_tools/version-control/</guid>
-      <description>git  </description>
+      <description>git  Sonatype  They provide infrastructure to publish open source libraries to Maven staging repositories  manage on web - https://oss.sonatype.org/#stagingRepositories In case of trouble, simplest to drop repository.    </description>
     </item>
     
     <item>
@@ -2639,6 +2639,15 @@ General technique Concentrate on the high order bits: the important matter. Sole
     </item>
     
     <item>
+      <title>Computer setup tools</title>
+      <link>https://vvasuki.github.io/notes/computing/programming/dev_tools/computer_setup_tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/programming/dev_tools/computer_setup_tools/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
       <title>Computer vision</title>
       <link>https://vvasuki.github.io/notes/computing/ai/Computer_vision/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3075,6 +3084,15 @@ Target Dependencies There may be various dependencies amongst these build target
 Coordinating processes There is always an initiator process.
 General signalling constructs See programming ref. Callback, polling.
 Synchronization Blocking Process A may be listening in the channel, and may be blocked until it receives a message.</description>
+    </item>
+    
+    <item>
+      <title>Dev environment</title>
+      <link>https://vvasuki.github.io/notes/computing/programming/dev_tools/development_environment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/programming/dev_tools/development_environment/</guid>
+      <description>Development Environment (IDE)  </description>
     </item>
     
     <item>
@@ -7252,15 +7270,6 @@ Interleaving If a majorizes \(b \in R^{n}\), \(\exists g \in R^{n-1}\) interleav
       
       <guid>https://vvasuki.github.io/notes/history/paganology/Aryan/indo-iranian/indo-aryan/persons/brAhma/sage-bloodlines/bhRguH/dvitIyajanmani_bhRguH/chyavanaH/ApnavAna/aurvaH/jamadagniH/MT_charitram/2004/12/2004-12-11_report-from-spies/</guid>
       <description>Our sachIva had proposed a long and intricate escape plan that had promising aspects to it. It needed a particular maneuver that was difficult but could be achieved with the help of my greatest ally. I had started considering it seriously as an option in the event we face a defeat on the front #3. However, I suddenly realized that this escape route could very well turn out the route for exit from this earth.</description>
-    </item>
-    
-    <item>
-      <title>Repositories</title>
-      <link>https://vvasuki.github.io/notes/computing/programming/dev_tools/repositories/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://vvasuki.github.io/notes/computing/programming/dev_tools/repositories/</guid>
-      <description>Sonatype  They provide infrastructure to publish open source libraries to Maven staging repositories  manage on web - https://oss.sonatype.org/#stagingRepositories In case of trouble, simplest to drop repository.    </description>
     </item>
     
     <item>

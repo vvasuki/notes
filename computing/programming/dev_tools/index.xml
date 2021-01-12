@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vvasuki.github.io/notes/computing/programming/dev_tools/version-control/</guid>
-      <description>git  </description>
+      <description>git  Sonatype  They provide infrastructure to publish open source libraries to Maven staging repositories  manage on web - https://oss.sonatype.org/#stagingRepositories In case of trouble, simplest to drop repository.    </description>
     </item>
     
     <item>
@@ -31,6 +31,15 @@ Object files Object files contain named segments of machine instructions - libra
     </item>
     
     <item>
+      <title>Computer setup tools</title>
+      <link>https://vvasuki.github.io/notes/computing/programming/dev_tools/computer_setup_tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/programming/dev_tools/computer_setup_tools/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
       <title>Debug</title>
       <link>https://vvasuki.github.io/notes/computing/programming/dev_tools/debug/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -40,12 +49,12 @@ Object files Object files contain named segments of machine instructions - libra
     </item>
     
     <item>
-      <title>Repositories</title>
-      <link>https://vvasuki.github.io/notes/computing/programming/dev_tools/repositories/</link>
+      <title>Dev environment</title>
+      <link>https://vvasuki.github.io/notes/computing/programming/dev_tools/development_environment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://vvasuki.github.io/notes/computing/programming/dev_tools/repositories/</guid>
-      <description>Sonatype  They provide infrastructure to publish open source libraries to Maven staging repositories  manage on web - https://oss.sonatype.org/#stagingRepositories In case of trouble, simplest to drop repository.    </description>
+      <guid>https://vvasuki.github.io/notes/computing/programming/dev_tools/development_environment/</guid>
+      <description>Development Environment (IDE)  </description>
     </item>
     
     <item>
