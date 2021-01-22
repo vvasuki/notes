@@ -2317,6 +2317,15 @@ Most new cars are sold with a three-year/36,000-mile warranty. Therefore, if you
     </item>
     
     <item>
+      <title>Cables</title>
+      <link>https://vvasuki.github.io/notes/computing/computerArchitecture/network/cables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/computing/computerArchitecture/network/cables/</guid>
+      <description>Types  Cat 6 - 10 Gbps Cat 5e - 1Gbps Cat 5 - 100MBPs  Terminals RJ-45 end</description>
+    </item>
+    
+    <item>
       <title>Cancer</title>
       <link>https://vvasuki.github.io/notes/biology/organism/health/disease/cancer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -9961,10 +9970,10 @@ Online experimentation Comparing models tough without experiments.</description>
     
     <item>
       <title>Wifi Router</title>
-      <link>https://vvasuki.github.io/notes/computing/computerArchitecture/wifi-router/</link>
+      <link>https://vvasuki.github.io/notes/computing/computerArchitecture/network/wifi-router/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://vvasuki.github.io/notes/computing/computerArchitecture/wifi-router/</guid>
+      <guid>https://vvasuki.github.io/notes/computing/computerArchitecture/network/wifi-router/</guid>
       <description>Desiderata  Have sufficient wireless speed. Be dual band Support new wifi protocols (eth ac &amp;gt; n)  Protocols  802.11ax &amp;gt; 802.11ac (5GHz faster) &amp;gt; 802.11n (100Mbps) &amp;gt; 802.11g &amp;gt; 802.11b &amp;gt; 802.11a &amp;gt; 802.11  Bands  5GHz is faster but lower range. 2.4GHz is slower, but longer range. Older devices need it.  wifi-router-history  </description>
     </item>
     
