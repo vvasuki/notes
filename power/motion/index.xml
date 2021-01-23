@@ -29,5 +29,14 @@ Front loaders seem to use less water, result in less water retention in clothes,
       <description>Types  Gearless (no oil, less energy) geared Hydraulic. (No pit needed. BUt more maintenance.)  Features  Coated steel belts - zero lubrication. Need for machine room. Finishing - Stainless steel vs fabric. Door opening: Automatic vs manual. Side telescopic vs center. Safety: typically allow getting descending to the next lower floor in case of power loss.  Space  Typical Pit depth 1350mm = 53.14 in  Cost Installation  Depends on capacity, number of stops, technology, lift permit, scaffolding, electrical work.</description>
     </item>
     
+    <item>
+      <title>Fan</title>
+      <link>https://vvasuki.github.io/notes/power/motion/fan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/power/motion/fan/</guid>
+      <description>They don’t cool rooms, they just provide air circulation in the room to cool you.  Metrics  Air Delivery : example 225 CMM (Cubic Meters per Minute) Number of blades  More blades - less speed, but also less noisy.   Blade sweep. In ceiling fans: 600mm (2ft), 1200 mm (4 ft from center), 1400mm (4.5 ft) are common. Greater sweep is like adding more blades plus greater reach for air.</description>
+    </item>
+    
   </channel>
 </rss>

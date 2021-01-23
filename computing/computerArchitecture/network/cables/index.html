@@ -19,20 +19,20 @@
     <link href="/notes/computing/computerArchitecture/network/cables/" rel="feed" type="application/rss+xml" title="Vishvas&#39;s notes" />
 
     <meta property="og:title" content="Cables" />
-<meta property="og:description" content="Types  Cat 6 - 10 Gbps Cat 5e - 1Gbps Cat 5 - 100MBPs  Terminals RJ-45 end" />
+<meta property="og:description" content="Types  Cat 6 - 10 Gbps. 2x Performance of Cat 5 &amp; 5e - frequency up to 250 MHz Cat 5e - 1Gbps Cat 5 - 100MBPs  Conductor Shielding  Indoor cables must overcome interference from other wires. So shielding is needed. Unshielded cables are generally ok for outdoor use.  Types  U/UTP (Unshielded Twisted Pair) means the cable consists of 4 unshielded twisted pairs and no outer shielding." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://vvasuki.github.io/notes/computing/computerArchitecture/network/cables/" />
 
 <meta itemprop="name" content="Cables">
-<meta itemprop="description" content="Types  Cat 6 - 10 Gbps Cat 5e - 1Gbps Cat 5 - 100MBPs  Terminals RJ-45 end">
+<meta itemprop="description" content="Types  Cat 6 - 10 Gbps. 2x Performance of Cat 5 &amp; 5e - frequency up to 250 MHz Cat 5e - 1Gbps Cat 5 - 100MBPs  Conductor Shielding  Indoor cables must overcome interference from other wires. So shielding is needed. Unshielded cables are generally ok for outdoor use.  Types  U/UTP (Unshielded Twisted Pair) means the cable consists of 4 unshielded twisted pairs and no outer shielding.">
 
-<meta itemprop="wordCount" content="17">
+<meta itemprop="wordCount" content="302">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Cables"/>
-<meta name="twitter:description" content="Types  Cat 6 - 10 Gbps Cat 5e - 1Gbps Cat 5 - 100MBPs  Terminals RJ-45 end"/>
+<meta name="twitter:description" content="Types  Cat 6 - 10 Gbps. 2x Performance of Cat 5 &amp; 5e - frequency up to 250 MHz Cat 5e - 1Gbps Cat 5 - 100MBPs  Conductor Shielding  Indoor cables must overcome interference from other wires. So shielding is needed. Unshielded cables are generally ok for outdoor use.  Types  U/UTP (Unshielded Twisted Pair) means the cable consists of 4 unshielded twisted pairs and no outer shielding."/>
 
       
     
@@ -424,12 +424,53 @@
   <div id="post_content">
   <h2 id="types">Types</h2>
 <ul>
-<li>Cat 6 - 10 Gbps</li>
+<li>Cat 6 - 10 Gbps. 2x Performance of Cat 5 &amp; 5e - frequency up to 250 MHz</li>
 <li>Cat 5e - 1Gbps</li>
 <li>Cat 5 - 100MBPs</li>
 </ul>
-<h2 id="terminals">Terminals</h2>
-<p>RJ-45 end</p>
+<h2 id="conductor">Conductor</h2>
+<h2 id="shielding">Shielding</h2>
+<ul>
+<li>Indoor cables must overcome interference from other wires. So shielding is needed.</li>
+<li>Unshielded cables are generally ok for outdoor use.</li>
+</ul>
+<h3 id="types-1">Types</h3>
+<ul>
+<li>U/UTP (Unshielded Twisted Pair) means the cable consists of 4 unshielded twisted pairs and no outer shielding.</li>
+<li>CAT6A F/UTP (Foiled Unshielded Twisted Pair) means the cable consists of 4 unshielded twisted pairs however it contains an outer foil shield.</li>
+<li>S/FTP (screened/foiled twisted pair) cable, normally a CAT7 cable that has four individually shielded pairs and an outer screen braid around all four pairs.</li>
+</ul>
+<h2 id="crimping">Crimping</h2>
+<ul>
+<li>Video <a href="https://www.youtube.com/watch?v=NmtMPSu--q0&amp;feature=emb_logo">here</a> .</li>
+</ul>
+<h3 id="wire-terminal-matching">Wire-terminal matching</h3>
+<p>T-568B is most commonly used.</p>
+<pre><code>                 T-568B                         T-568A
+       --------------------------      ------------------------
+Pin    Color             RJ-45 use      Color          RJ-45 use
+---    -------------     --------      -------------   --------
+ 1     Orange Stripe     Tx+           Green Stripe    Rx+
+ 2     Orange            Tx-           Green           Rx-
+ 3     Green Stripe      Rx+           Orange Stripe   Tx+
+ 4     Blue              Not Used      Blue            Not Used
+ 5     Blue Stripe       Not Used      Blue Stripe     Not Used
+ 6     Green             Rx-           Orange          Tx-
+ 7     Brown Stripe      Not Used      Brown Stripe    Not Used
+ 8     Brown             Not Used      Brown           Not Used
+</code></pre><ul>
+<li>The other two colors (blue and brown) may be used for a second Ethernet line or for phone connections.</li>
+</ul>
+<h3 id="straight-vs-cross-over-ends">Straight vs cross-over ends</h3>
+<ul>
+<li>Straight-through cable, as its name suggests, connects pin 1 to pin 1, pin 2 to pin 2, pin 3 to pin 3, and pin 6 to pin 6.</li>
+<li>Cross-over cables are used to connect TX+ to RX+, and TX- to RX-, which connects pin 1 to pin 3, pin 2 to pin 6, pin 3 to pin 1 and pin 6 to pin 2.</li>
+</ul>
+<h2 id="rj-registered-jack-terminals">RJ (Registered jack) Terminals</h2>
+<ul>
+<li>RJ-11 is a 6-position, 4-conductor jack used in telephone wiring</li>
+<li>RJ-45 is used for LAN.</li>
+</ul>
 
   </div>
 </article>
@@ -467,7 +508,7 @@
     </a>
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
-      Built on 2021 Jan 22 23:21:41 UTC. (<a href="http://google.com/search?q=23%3a21%3a41%20UTC to IST">IST</a>)
+      Built on 2021 Jan 23 17:25:08 UTC. (<a href="http://google.com/search?q=17%3a25%3a08%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>

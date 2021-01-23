@@ -2299,11 +2299,11 @@ If the yarn on the outside of the garment is thinner than the yarn on the inside
     
     <item>
       <title>Bulbs</title>
-      <link>https://vvasuki.github.io/notes/power/electricity/bulbs/</link>
+      <link>https://vvasuki.github.io/notes/power/light/bulbs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://vvasuki.github.io/notes/power/electricity/bulbs/</guid>
-      <description>Socket types  B22 - two contacts on the side. Popular in India. E27 - screwed bulb type. contacts on side and back. Popular in USA.  </description>
+      <guid>https://vvasuki.github.io/notes/power/light/bulbs/</guid>
+      <description>Metrics  Lumens/Watt - 100 is best. 75 is average. LED life in hours Power factor/ efficiency. Smart bulbs - color range, brightness adjustment  Socket types  B22 - two contacts on the side. Popular in India. E27 - screwed bulb type. contacts on side and back. Popular in USA.  </description>
     </item>
     
     <item>
@@ -2322,7 +2322,7 @@ Most new cars are sold with a three-year/36,000-mile warranty. Therefore, if you
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vvasuki.github.io/notes/computing/computerArchitecture/network/cables/</guid>
-      <description>Types  Cat 6 - 10 Gbps Cat 5e - 1Gbps Cat 5 - 100MBPs  Terminals RJ-45 end</description>
+      <description>Types  Cat 6 - 10 Gbps. 2x Performance of Cat 5 &amp;amp; 5e - frequency up to 250 MHz Cat 5e - 1Gbps Cat 5 - 100MBPs  Conductor Shielding  Indoor cables must overcome interference from other wires. So shielding is needed. Unshielded cables are generally ok for outdoor use.  Types  U/UTP (Unshielded Twisted Pair) means the cable consists of 4 unshielded twisted pairs and no outer shielding.</description>
     </item>
     
     <item>
@@ -3579,6 +3579,15 @@ Choices Buy some light safety glasses which fit over prescription eye-glasses, w
 अक्रमः अङ्गुल्यः करतलम्
 पृष्टतः यदि शक्यते कायवर्तनेन भुजपातनं कुरु। अनिवार्यतायाम् क्रमः - मुष्टिः, हस्तजङ्गः, हस्तजानुः, हस्तोरुः, भुजः
 अङ्गरक्षण-वस्त्र-धरणम् </description>
+    </item>
+    
+    <item>
+      <title>Fan</title>
+      <link>https://vvasuki.github.io/notes/power/motion/fan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/power/motion/fan/</guid>
+      <description>They don’t cool rooms, they just provide air circulation in the room to cool you.  Metrics  Air Delivery : example 225 CMM (Cubic Meters per Minute) Number of blades  More blades - less speed, but also less noisy.   Blade sweep. In ceiling fans: 600mm (2ft), 1200 mm (4 ft from center), 1400mm (4.5 ft) are common. Greater sweep is like adding more blades plus greater reach for air.</description>
     </item>
     
     <item>

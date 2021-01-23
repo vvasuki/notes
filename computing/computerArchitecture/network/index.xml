@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vvasuki.github.io/notes/computing/computerArchitecture/network/cables/</guid>
-      <description>Types  Cat 6 - 10 Gbps Cat 5e - 1Gbps Cat 5 - 100MBPs  Terminals RJ-45 end</description>
+      <description>Types  Cat 6 - 10 Gbps. 2x Performance of Cat 5 &amp;amp; 5e - frequency up to 250 MHz Cat 5e - 1Gbps Cat 5 - 100MBPs  Conductor Shielding  Indoor cables must overcome interference from other wires. So shielding is needed. Unshielded cables are generally ok for outdoor use.  Types  U/UTP (Unshielded Twisted Pair) means the cable consists of 4 unshielded twisted pairs and no outer shielding.</description>
     </item>
     
     <item>
