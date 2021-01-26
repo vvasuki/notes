@@ -3587,7 +3587,7 @@ Choices Buy some light safety glasses which fit over prescription eye-glasses, w
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vvasuki.github.io/notes/power/motion/fan/</guid>
-      <description>They don’t cool rooms, they just provide air circulation in the room to cool you.  Metrics  Air Delivery : example 225 CMM (Cubic Meters per Minute) Number of blades  More blades - less speed, but also less noisy.   Blade sweep. In ceiling fans: 600mm (2ft), 1200 mm (4 ft from center), 1400mm (4.5 ft) are common. Greater sweep is like adding more blades plus greater reach for air.</description>
+      <description>They don’t cool rooms, they just provide air circulation in the room to cool you.  Metrics  Air Delivery : example 225 CMM (Cubic Meters per Minute) Number of blades  More blades - less speed, but also less noisy.   Blade sweep. In ceiling fans: 600mm (2ft), 1200 mm (4 ft from center), 1400mm (5 ft) are common. Greater sweep is like adding more blades plus greater reach for air.</description>
     </item>
     
     <item>
@@ -6398,6 +6398,16 @@ Market price order A market order is an order to buy or sell a stock at the curr
 Minimum element \(\forall y \in S: x\leq y\).
 Partial order Aka Posets: Partially Ordered sets. Maybe some \((x, y) \in S\) not comparable. Eg: vectors, componentwise \(&amp;lt;\). Visualize with Hasse diagrams.
 Minimal element \(\forall y \in S: x\leq y \implies x = y\). Note difference from minimum. Eg: in triangle joining (1,1), (0, 1), (1, 0): line joining the last 2 pts are minimal elements.</description>
+    </item>
+    
+    <item>
+      <title>Origin</title>
+      <link>https://vvasuki.github.io/notes/biology/organism/health/disease/contagion/wuhan_epidemic/origin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/biology/organism/health/disease/contagion/wuhan_epidemic/origin/</guid>
+      <description>Origin - Wuhan, China.
+Deep history  Ultimate source likely from bats. SARS-CoV2 really doesn&amp;rsquo;t differ much from SARS-CoV. SARS-like viruses as a whole (i.e. SARS-CoV, SARS-CoV2 and several related bat SARS-like viruses) which from a distinct branch from the MERS-CoV. &amp;ldquo;Unrelated respiratory disease viruses like adenoviruses &amp;amp; coronaviruses might have exchanged genes in their deep evolutionary history. This interesting finding would have come about had the impetus not come from the ongoing pandemic.</description>
     </item>
     
     <item>
