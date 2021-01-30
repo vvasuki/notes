@@ -6206,12 +6206,12 @@ Variants Absolute norms \(\norm{a} = \norm{|a|}\).</description>
     
     <item>
       <title>North Europe</title>
-      <link>https://vvasuki.github.io/notes/history/paganology/Aryan/europe/</link>
+      <link>https://vvasuki.github.io/notes/history/paganology/Aryan/north_europe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://vvasuki.github.io/notes/history/paganology/Aryan/europe/</guid>
+      <guid>https://vvasuki.github.io/notes/history/paganology/Aryan/north_europe/</guid>
       <description>Mediterranian considered separately.
-Present  Khanty of Rus: &amp;quot; Khanty people remained heathen for long despite vigorous attempts to impose the Christian delusion on them by the Rus. They were finally subjugated by the 1800s and partly converted. In the 1900s they were subject to ethnic cleansing by Stalin who systematically suppressed their heathen religion and killed off all their shamans.&amp;rdquo; Mari people of Rus.  Residual awareness Residual awareness of obliteration of the better pagan heritage</description>
+Paganism Present  Khanty of Rus: &amp;quot; Khanty people remained heathen for long despite vigorous attempts to impose the Christian delusion on them by the Rus. They were finally subjugated by the 1800s and partly converted. In the 1900s they were subject to ethnic cleansing by Stalin who systematically suppressed their heathen religion and killed off all their shamans.&amp;rdquo; Mari people of Rus.  Residual awareness Residual awareness of obliteration of the better pagan heritage</description>
     </item>
     
     <item>
@@ -7399,6 +7399,16 @@ Interleaving If a majorizes \(b \in R^{n}\), \(\exists g \in R^{n-1}\) interleav
       <description>Natural state &amp;ldquo;&amp;ldquo;We as human-beings are inherently social creatures, and are used to operating within cooperative circles of extended family, groups/gangs, villages/tribes, etc.&amp;rdquo;
 &amp;ldquo;Outside of family, research suggests there are only three levels of relationships: 1) Daily contact with 1-2 people (your significant other and maybe a best friend), 2) Weekly contact with 3-5 people (true friends that provide instrumental support), 3) Everyone else.&amp;rdquo;
 &amp;ldquo;So what about the rest of your social network?</description>
+    </item>
+    
+    <item>
+      <title>Religion</title>
+      <link>https://vvasuki.github.io/notes/history/paganology/americas/mAya/religion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/history/paganology/americas/mAya/religion/</guid>
+      <description>Traditionalist Catholicism Status under Christianity “Traditionalist Catholicism” refers to a broad set of religious beliefs, traditions, and practices that generally align with Roman Catholicism, but intermingle Indigenous polytheism and practices to form a local syncretic faith.
+Traditionalists are part of a loosely organized North American denominational movement often called Old Catholicism. This movement adopts and affirms Roman Catholic traditions and theology while asserting independence from Rome. While they are often conservative, Old Catholic denominations can differ widely among themselves and with Rome on issues such as the ordination of women, divorce, and homosexuality.</description>
     </item>
     
     <item>
@@ -9966,6 +9976,15 @@ Online experimentation Comparing models tough without experiments.</description>
       <guid>https://vvasuki.github.io/notes/computing/programming/programmingLanguages/general_purpose/scala/web_server/</guid>
       <description>Play  Akka Http HTTP front for the akka actor system - no built-in templating language. offers several different API levels for “doing the same thing”.
  Client val request = HttpRequest(uri = Uri(uri)) val req = HttpRequest(uri = &amp;quot;/ignored&amp;quot;, headers = List(`Raw-Request-URI`(&amp;quot;/a/b%2Bc&amp;quot;))) val formData = FormData((&amp;quot;user_id&amp;quot;, user_id), (&amp;quot;user_secret&amp;quot;, user_secret)) val r = HttpRequest(POST, url, headers, formData.toEntity) </description>
+    </item>
+    
+    <item>
+      <title>Weight loss</title>
+      <link>https://vvasuki.github.io/notes/biology/organism/health/weight-loss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/biology/organism/health/weight-loss/</guid>
+      <description>GuruAnerobic advice  LCHP IF - the way forward diet: LC (Low Carbohydrate) HP (High Protein) IF (Intermittent Fasting) PARTIT LA FT - the way forward (exercise) - PA (Physical Activity) RT (Resistance Training) IT (Interval Training) LA (Lactic Acid Acidosis) FT (Fast Twitch Muscle)  As well as helping you lose fat, this is your code for dynamic strength, fitness and robust health. It will enable you to achieve the physical targets in Gang Fit 2.</description>
     </item>
     
     <item>
