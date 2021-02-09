@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Chimney</title>
+      <link>https://vvasuki.github.io/notes/power/motion/chimney/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/power/motion/chimney/</guid>
+      <description>Parameters  Suction power. Should suffice to change air 10 times per hour.  Alternate guide: If kitchen is in separate room, 600 m3/h suffices. Else, good to go for 1200 m3/h.   Size: 60x60 (2-4 burners), 90cm (3-5 burners) Autoclean: Better suction power and life.  Turbine blower forces air to move to chimney walls (oil goes thence to a collection bowl, which should be washed every month). Thermal auto-clean - evaporate oil etc from insides of motor.</description>
+    </item>
+    
+    <item>
       <title>Cloth washing</title>
       <link>https://vvasuki.github.io/notes/power/motion/coth_washing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
