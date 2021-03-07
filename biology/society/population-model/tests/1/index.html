@@ -19,23 +19,20 @@
     <link href="/notes/biology/society/population-model/tests/1/" rel="feed" type="application/rss+xml" title="Vishvas&#39;s notes" />
 
     <meta property="og:title" content="HW 1" />
-<meta property="og:description" content="1 You observe that a population of dragonflies show oscillatory patterns, i.e. population density is changing roughly periodically with time. Propose two hypotheses- with a brief reasoning for each of them - for the observed patterns.(5 Marks)
-Response  Changing seasons could be affecting food availability, leading to alternating increases and decreases. An interspecific competition with either species gaining the upper hand for a while before the other adapts.  2 What is the interpretation of K in the population equation \(N_{t&#43;1} = N_t(1-\dfrac{N_t}{k})\)." />
+<meta property="og:description" content="Notation Let us revise and adopt the following notations: b is the number of offspring per generation per individual of the parent generation, d is probability of death of an individual per generation and hence R = 1 &#43; b − d. With this notation,the model we described in the class which accounts for reduced resources with increased population has the form \(R= R_0 (1−N_t/K)\) and hence, \(N_{t&#43;1} = R_0 N_t(1 − N_t/K)\)." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://vvasuki.github.io/notes/biology/society/population-model/tests/1/" />
 
 <meta itemprop="name" content="HW 1">
-<meta itemprop="description" content="1 You observe that a population of dragonflies show oscillatory patterns, i.e. population density is changing roughly periodically with time. Propose two hypotheses- with a brief reasoning for each of them - for the observed patterns.(5 Marks)
-Response  Changing seasons could be affecting food availability, leading to alternating increases and decreases. An interspecific competition with either species gaining the upper hand for a while before the other adapts.  2 What is the interpretation of K in the population equation \(N_{t&#43;1} = N_t(1-\dfrac{N_t}{k})\).">
+<meta itemprop="description" content="Notation Let us revise and adopt the following notations: b is the number of offspring per generation per individual of the parent generation, d is probability of death of an individual per generation and hence R = 1 &#43; b − d. With this notation,the model we described in the class which accounts for reduced resources with increased population has the form \(R= R_0 (1−N_t/K)\) and hence, \(N_{t&#43;1} = R_0 N_t(1 − N_t/K)\).">
 
-<meta itemprop="wordCount" content="327">
+<meta itemprop="wordCount" content="510">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="HW 1"/>
-<meta name="twitter:description" content="1 You observe that a population of dragonflies show oscillatory patterns, i.e. population density is changing roughly periodically with time. Propose two hypotheses- with a brief reasoning for each of them - for the observed patterns.(5 Marks)
-Response  Changing seasons could be affecting food availability, leading to alternating increases and decreases. An interspecific competition with either species gaining the upper hand for a while before the other adapts.  2 What is the interpretation of K in the population equation \(N_{t&#43;1} = N_t(1-\dfrac{N_t}{k})\)."/>
+<meta name="twitter:description" content="Notation Let us revise and adopt the following notations: b is the number of offspring per generation per individual of the parent generation, d is probability of death of an individual per generation and hence R = 1 &#43; b − d. With this notation,the model we described in the class which accounts for reduced resources with increased population has the form \(R= R_0 (1−N_t/K)\) and hence, \(N_{t&#43;1} = R_0 N_t(1 − N_t/K)\)."/>
 
       
     
@@ -425,28 +422,50 @@ Response  Changing seasons could be affecting food availability, leading to alte
     </div>
   </aside>
   <div id="post_content">
-  <h2 id="1">1</h2>
+  <h2 id="notation">Notation</h2>
+<p>Let us revise and adopt the following notations: b is the number of offspring per generation per individual of the parent generation, d is probability of death of an individual per generation and hence R = 1 + b − d.  With this notation,the  model  we  described  in  the  class  which  accounts  for reduced  resources  with increased population has the form \(R= R_0 (1−N_t/K)\) and hence, \(N_{t+1} = R_0 N_t(1 − N_t/K)\).</p>
+<h2 id="1">1</h2>
 <p>You observe that a population of dragonflies show oscillatory patterns, i.e.  population density is changing roughly periodically with time.  Propose two hypotheses- with a brief reasoning for each of them - for the observed patterns.(5 Marks)</p>
 <h3 id="response">Response</h3>
 <ul>
 <li>Changing seasons could be affecting food availability, leading to alternating increases and decreases.</li>
-<li>An interspecific competition with either species gaining the upper hand for a while before the other adapts.</li>
+<li>An inter-species competition with either species gaining the upper hand for a while before the other adapts.</li>
 </ul>
 <h2 id="2">2</h2>
 <p>What is the interpretation of K in the population equation \(N_{t+1} = N_t(1-\dfrac{N_t}{k})\). (2 Marks)</p>
 <h3 id="response-1">Response</h3>
+<p>Compare with \(N_{t+1} = N_t(1 + b − d)\). So, we have \(d - b = \dfrac{N_t}{k}\) and \(k = \dfrac{N_t}{d-b}\). k is the rate at which R linearly decays with \(N_t\). It could be interpreted as a penalty against reproductive rate in the next generation when the population is high (possibly due to resource constraints).</p>
 <p>If k is \(\infty\), \(N_t\) remains constant. If k is \(N_t\), everyone dies.</p>
+
+<figure class="thumbnail">
+    
+    
+    
+    
+    
+    <a href="../images/R-linear-decay-from-1.png">
+        <img src="../images/R-linear-decay-from-1.png" alt="R-linear-decay-from-1 " />
+    </a>
+    <figcaption>
+        R-linear-decay-from-1
+        
+    </figcaption>
+</figure>
+
+
 <h2 id="3">3</h2>
 <p>We considered the linear decay of R with \(N_t\) in the class.  Alternatively, consider \(R= exp(− \dfrac{N_t−K}{K})\), i.e.  an exponential decay.</p>
 <h3 id="3a">3a</h3>
 <p>(a) The population model now reads: \(N_{t+1} = N_t exp(− \dfrac{N_t−K}{K})\).  What is a possible interpretation of K in this model?</p>
+<h4 id="response-2">Response</h4>
 <h3 id="3b">3b</h3>
 <p>(b) Eliminate one of the parameters without loosing any information and write the resulting simplified model. (5 Marks).</p>
 <h2 id="4">4</h2>
-<p>Bacteria has a generation time of 20 minutes at the end of which it divides to giverise to daughters when sucient resources are around.  A student puts a bacteriumin a container having sufficient resources for reproduction and then she ensuresthat per-capita resource availability never goes down.  If she indeed maintains thatcondition, what will be the number of bacteria and the approximate weight of thebeaker at the end of 24 hours?  For this question:  (a) estimate numbers manuallywithout using  calculators/computers (b)  list any assumptions  you make  clearly. 10 Marks.</p>
-<h3 id="response-2">Response</h3>
+<p>Bacteria has a generation time of 20 minutes at the end of which it divides to give rise to daughters when sucient resources are around.  A student puts a bacterium in a container having sufficient resources for reproduction and then she ensuresthat per-capita resource availability never goes down.  If she indeed maintains thatcondition, what will be the number of bacteria and the approximate weight of the beaker at the end of 24 hours?  For this question:  (a) estimate numbers manually without using  calculators/computers (b)  list any assumptions  you make  clearly. 10 Marks.</p>
+<h3 id="response-3">Response</h3>
+<p>Let w be the weight of a bacterium. In 24 hours, there will be 72 generations. So, there will be \(2^72\) bacteriae, whose weight will be \(2^72w\), or over \(10^21w\). This means that if w = 1 microgram, the weight will be \(10^15\) grams. Very heavy.</p>
 <h2 id="5">5</h2>
-<p>equired readings:  (1) Read the uploaded book chapter “Modelling Philosophy” by Hanna Kokko.  (2) Strategy of modelling in Ecology by Levins (first two and a half pages).  (a) Write three key criteriayouwould use to evaluate a math-ematical model of a biological system.  (b) Levins talks about the importance of ’robust’ results which are independent of the detailed assumptions.  What do youthink are cons of having such robust results when one tries to interpret real data?</p>
+<p>Required readings:  (1) Read the uploaded book chapter “Modelling Philosophy” by Hanna Kokko.  (2) Strategy of modelling in Ecology by Levins (first two and a half pages).  (a) Write three key criteria you would use to evaluate a math-ematical model of a biological system.  (b) Levins talks about the importance of ’robust’ results which are independent of the detailed assumptions.  What do youthink are cons of having such robust results when one tries to interpret real data?</p>
 
   </div>
 </article>
@@ -484,7 +503,7 @@ Response  Changing seasons could be affecting food availability, leading to alte
     </a>
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
-      Built on 2021 Mar 6 16:27:36 UTC. (<a href="http://google.com/search?q=16%3a27%3a36%20UTC to IST">IST</a>)
+      Built on 2021 Mar 7 13:11:20 UTC. (<a href="http://google.com/search?q=13%3a11%3a20%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>

@@ -16,8 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://vvasuki.github.io/notes/biology/society/population-model/tests/1/</guid>
-      <description>1 You observe that a population of dragonflies show oscillatory patterns, i.e. population density is changing roughly periodically with time. Propose two hypotheses- with a brief reasoning for each of them - for the observed patterns.(5 Marks)
-Response  Changing seasons could be affecting food availability, leading to alternating increases and decreases. An interspecific competition with either species gaining the upper hand for a while before the other adapts.  2 What is the interpretation of K in the population equation \(N_{t+1} = N_t(1-\dfrac{N_t}{k})\).</description>
+      <description>Notation Let us revise and adopt the following notations: b is the number of offspring per generation per individual of the parent generation, d is probability of death of an individual per generation and hence R = 1 + b − d. With this notation,the model we described in the class which accounts for reduced resources with increased population has the form \(R= R_0 (1−N_t/K)\) and hence, \(N_{t+1} = R_0 N_t(1 − N_t/K)\).</description>
     </item>
     
   </channel>

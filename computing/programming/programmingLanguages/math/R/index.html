@@ -42,7 +42,7 @@ Working environment getwd(), setwd(dir)
 options(): Example options(digits=3)
 Command history history(), savehistory, loadhistory.">
 
-<meta itemprop="wordCount" content="1822">
+<meta itemprop="wordCount" content="1901">
 
 
 
@@ -536,7 +536,7 @@ apropos(&ldquo;log&rdquo;), help.search(&ldquo;log&rdquo;), example(commandName)
 <p>tail(x, k) picks the k last elements.</p>
 <p>To append to a vector: append(v, val)</p>
 <h4 id="creating-vectors">Creating vectors</h4>
-<p>c(1,2) : Using the concatenation function.</p>
+<p>Using the concatenation function - c(1, 23, 24) creates a vector of the given elements.</p>
 <p>seq(); This can be abbreviated using the : operator.</p>
 <p>rep(vector, timesToRepeat) is the replicator function.</p>
 <p>vector() creates an empty vector.</p>
@@ -675,8 +675,27 @@ DF[,!(names(DF) %in% drops)]
 <p>sink(&lsquo;fileName&rsquo;) diverts output to a file. sink() restores it to STDIO.</p>
 <h4 id="input">Input</h4>
 <p>x= scan(): keyboard input, no commas.</p>
-<h3 id="plotting-and-tables">Plotting and tables</h3>
+<h3 id="plotting">Plotting</h3>
 <p><code>plot(y ~ x)</code> produces a scatter plot.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#a6e22e">plot</span>(x, y, main<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;title&#34;</span>, sub<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;subtitle&#34;</span>,
+  xlab<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;X-axis label&#34;</span>, ylab<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;y-axix label&#34;</span>,
+  xlim<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(xmin, xmax), ylim<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(ymin, ymax))
+<span style="color:#a6e22e">plot</span>(<span style="color:#66d9ef">NULL</span>, xlim<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1000</span>), ylim<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1000</span>), xlab<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Generations&#34;</span>, ylab <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;N_t&#34;</span>) <span style="color:#75715e"># Empty plot</span>
+</code></pre></div><h4 id="attributes">Attributes</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#a6e22e">legend</span>( x<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;topright&#34;</span>,
+        legend<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;k=2k&#34;</span>,<span style="color:#e6db74">&#34;k=1.5k&#34;</span>, <span style="color:#e6db74">&#34;k=1k&#34;</span>),
+        col<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;red&#34;</span>,<span style="color:#e6db74">&#34;blue&#34;</span>, <span style="color:#e6db74">&#34;green&#34;</span>))
+</code></pre></div><h4 id="add-to-same-plot">Add to same plot</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#a6e22e">plot</span>(x,y1,type<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;l&#34;</span>,col<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;red&#34;</span>)
+<span style="color:#a6e22e">lines</span>(x,y2,col<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;green&#34;</span>)
+<span style="color:#a6e22e">points</span>(x,y2,col<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;blue&#34;</span>)
+</code></pre></div><h4 id="combine-plots">Combine plots</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#a6e22e">par</span>(mfrow <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>)) <span style="color:#75715e"># Make 1*2 grid</span>
+<span style="color:#a6e22e">par</span>(mfg<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>)) <span style="color:#75715e"># Set the first plot</span>
+<span style="color:#a6e22e">plot</span>(<span style="color:#66d9ef">NULL</span>, xlim<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1000</span>), ylim<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1000</span>), xlab<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Generations&#34;</span>, ylab <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;N_t&#34;</span>)
+<span style="color:#a6e22e">par</span>(mfg<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>)) <span style="color:#75715e"># Set the second plot</span>
+<span style="color:#a6e22e">plot</span>(<span style="color:#66d9ef">NULL</span>, xlim<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">50</span>), ylim<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>), xlab<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Generations&#34;</span>, ylab <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;R_t&#34;</span>)
+</code></pre></div><h3 id="tables">Tables</h3>
 <p>Tables can be produced with <code>xtabs(y ~ x)</code>.</p>
 <h2 id="data-preparation-and-exploration">Data preparation and exploration</h2>
 <p>scale(x, center = TRUE, scale = TRUE) normalizes columns using the mean and standard deviation.</p>
@@ -750,7 +769,7 @@ print(ret)
     </a>
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
-      Built on 2021 Mar 6 16:27:36 UTC. (<a href="http://google.com/search?q=16%3a27%3a36%20UTC to IST">IST</a>)
+      Built on 2021 Mar 7 13:11:20 UTC. (<a href="http://google.com/search?q=13%3a11%3a20%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>
