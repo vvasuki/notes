@@ -26,7 +26,7 @@
 <meta itemprop="name" content="HW 1">
 <meta itemprop="description" content="Notation Let us revise and adopt the following notations: b is the number of offspring per generation per individual of the parent generation, d is probability of death of an individual per generation and hence R = 1 &#43; b − d. With this notation,the model we described in the class which accounts for reduced resources with increased population has the form \(R= R_0 (1−N_t/K)\) and hence, \(N_{t&#43;1} = R_0 N_t(1 − N_t/K)\).">
 
-<meta itemprop="wordCount" content="510">
+<meta itemprop="wordCount" content="591">
 
 
 
@@ -425,47 +425,43 @@
   <h2 id="notation">Notation</h2>
 <p>Let us revise and adopt the following notations: b is the number of offspring per generation per individual of the parent generation, d is probability of death of an individual per generation and hence R = 1 + b − d.  With this notation,the  model  we  described  in  the  class  which  accounts  for reduced  resources  with increased population has the form \(R= R_0 (1−N_t/K)\) and hence, \(N_{t+1} = R_0 N_t(1 − N_t/K)\).</p>
 <h2 id="1">1</h2>
-<p>You observe that a population of dragonflies show oscillatory patterns, i.e.  population density is changing roughly periodically with time.  Propose two hypotheses- with a brief reasoning for each of them - for the observed patterns.(5 Marks)</p>
+<p>You observe that a population of dragonflies show oscillatory patterns, i.e.  population density is changing roughly periodically with time.  Propose two hypotheses- with a brief reasoning for each of them - for the observed patterns.</p>
 <h3 id="response">Response</h3>
 <ul>
 <li>Changing seasons could be affecting food availability, leading to alternating increases and decreases.</li>
-<li>An inter-species competition with either species gaining the upper hand for a while before the other adapts.</li>
+<li>An inter-species competition with either species gaining the upper hand for a while before the other adapts. Like the hare-lynx model in book chapter “Modelling Philosophy” by Hanna Kokko.</li>
 </ul>
 <h2 id="2">2</h2>
-<p>What is the interpretation of K in the population equation \(N_{t+1} = N_t(1-\dfrac{N_t}{k})\). (2 Marks)</p>
+<p>What  is  the  biological  interpretation  of \(R_0\) and \(K\) in the population equation \(N_{t+1} = R_0 N_t(1-\frac{N_t}{k})\)?</p>
 <h3 id="response-1">Response</h3>
-<p>Compare with \(N_{t+1} = N_t(1 + b − d)\). So, we have \(d - b = \dfrac{N_t}{k}\) and \(k = \dfrac{N_t}{d-b}\). k is the rate at which R linearly decays with \(N_t\). It could be interpreted as a penalty against reproductive rate in the next generation when the population is high (possibly due to resource constraints).</p>
-<p>If k is \(\infty\), \(N_t\) remains constant. If k is \(N_t\), everyone dies.</p>
-
-<figure class="thumbnail">
-    
-    
-    
-    
-    
-    <a href="../images/R-linear-decay-from-1.png">
-        <img src="../images/R-linear-decay-from-1.png" alt="R-linear-decay-from-1 " />
-    </a>
-    <figcaption>
-        R-linear-decay-from-1
-        
-    </figcaption>
-</figure>
-
-
+<p>\(R_0\) is max(R).</p>
+<p>k measures the living room or resources available - like Oxygen for Human apes. If k is \(\infty\), \(N_t\) grows at max rate. If k is \(N_t\), everyone dies.</p>
 <h2 id="3">3</h2>
-<p>We considered the linear decay of R with \(N_t\) in the class.  Alternatively, consider \(R= exp(− \dfrac{N_t−K}{K})\), i.e.  an exponential decay.</p>
+<p>Consider \(R=e^{r(1−\frac{N_t}{k})}\),  i.e.   an  exponential  decay.   The  population  model  now reads: \(N_{t+1}=N_t e^{r(1−\frac{N_t}{k})}\).</p>
 <h3 id="3a">3a</h3>
-<p>(a) The population model now reads: \(N_{t+1} = N_t exp(− \dfrac{N_t−K}{K})\).  What is a possible interpretation of K in this model?</p>
+<p>What  is  the  equivalent  of \(R_0\),  and  what  is  a possible  biological  interpretation  of K in  this  model?</p>
 <h4 id="response-2">Response</h4>
+<p>\(e^{r}\) is the equivalent of \(R_0\), the max rate of growth.
+If k is \(\infty\), \(N_t\) grows at max rate. If k is \(N_t\), numbers stay constant. So, \(k\) is max numbers that the environment can support.</p>
 <h3 id="3b">3b</h3>
-<p>(b) Eliminate one of the parameters without loosing any information and write the resulting simplified model. (5 Marks).</p>
+<p>This  model  too  has two  parameters, r and K.   Eliminate  one  of  the  variables  without  loosing  any information and write the resulting simplified model.(10 Marks).</p>
+<h4 id="response-3">Response</h4>
+<p>Dividing both sides by k, we get \(\dfrac{N_{t+1}}{k} = \dfrac{N_t}{k} e^{r(1−\frac{N_t}{k})}\). Scaling to get \(x_t = \dfrac{N_t}{k}\), we get  \(x_{t+1} = x_t e^{r(1−x_t)}\).</p>
 <h2 id="4">4</h2>
-<p>Bacteria has a generation time of 20 minutes at the end of which it divides to give rise to daughters when sucient resources are around.  A student puts a bacterium in a container having sufficient resources for reproduction and then she ensuresthat per-capita resource availability never goes down.  If she indeed maintains thatcondition, what will be the number of bacteria and the approximate weight of the beaker at the end of 24 hours?  For this question:  (a) estimate numbers manually without using  calculators/computers (b)  list any assumptions  you make  clearly. 10 Marks.</p>
-<h3 id="response-3">Response</h3>
-<p>Let w be the weight of a bacterium. In 24 hours, there will be 72 generations. So, there will be \(2^72\) bacteriae, whose weight will be \(2^72w\), or over \(10^21w\). This means that if w = 1 microgram, the weight will be \(10^15\) grams. Very heavy.</p>
+<p>Bacteria has a generation time of 20 minutes at the end of which it divides to give rise to daughters when sufficient resources are around.  A student puts a bacterium in a container having sufficient resources for reproduction and then she ensures that per-capita resource availability never goes down.  If she indeed maintains that condition, what will be the number of bacteria and the approximate weight of the beaker at the end of 24 hours?  For this question:  (a) estimate numbers manually without using  calculators/computers (b)  list any assumptions  you make  clearly.</p>
+<h3 id="response-4">Response</h3>
+<p>Let w be the weight of a bacterium. In 24 hours, there will be 72 generations. So, there will be \(2^{72}\) bacteriae, whose weight will be \(2^{72}w\), or over \(10^{21}w\). This means that if w = 1 microgram, the weight will be \(10^15\) grams. Very heavy.</p>
+<p>Assumptions:</p>
+<ul>
+<li>Each bacterium splits into 2 when reproducing.</li>
+<li>The beaker is at least as big and strong as a three storey building, and that the student has access to helicopter and crane to keep supplying food to the bacteria - though I wonder if even that would suffice.</li>
+</ul>
 <h2 id="5">5</h2>
-<p>Required readings:  (1) Read the uploaded book chapter “Modelling Philosophy” by Hanna Kokko.  (2) Strategy of modelling in Ecology by Levins (first two and a half pages).  (a) Write three key criteria you would use to evaluate a math-ematical model of a biological system.  (b) Levins talks about the importance of ’robust’ results which are independent of the detailed assumptions.  What do youthink are cons of having such robust results when one tries to interpret real data?</p>
+<p>Required readings:  (1) Read the uploaded book chapter “Modelling Philosophy” by Hanna Kokko.  (2) Strategy of modelling in Ecology by Levins (first two and a half pages).</p>
+<h3 id="5a">5(a)</h3>
+<p>Write three key criteria you would use to evaluate a mathematical model of a biological system.</p>
+<h3 id="5b">5(b)</h3>
+<p>Levins talks about the importance of ’robust’ results which are independent of the detailed assumptions.  What do you think are cons of having such robust results when one tries to interpret real data?</p>
 
   </div>
 </article>
@@ -503,7 +499,7 @@
     </a>
     <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     <div class="btn small border">
-      Built on 2021 Mar 7 13:11:20 UTC. (<a href="http://google.com/search?q=13%3a11%3a20%20UTC to IST">IST</a>)
+      Built on 2021 Mar 7 16:22:41 UTC. (<a href="http://google.com/search?q=16%3a22%3a41%20UTC to IST">IST</a>)
     </div>
   <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
   </ul>
