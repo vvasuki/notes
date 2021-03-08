@@ -6973,6 +6973,15 @@ Reader notes So much of this paper rang true even regarding my own experience as
     </item>
     
     <item>
+      <title>Predator Prey cycles</title>
+      <link>https://vvasuki.github.io/notes/biology/society/population-model/predator-prey-cycles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vvasuki.github.io/notes/biology/society/population-model/predator-prey-cycles/</guid>
+      <description>Hare lynx cycle   lynx-hare-cycle    hare–lynx cycle described by Lotka–Volterra equations \(\dfrac{dV}{dt} = rV - aVP \) and \(\dfrac{dP}{dt} = -qP + baVP\). Here V is hare density; P is lynx density; t marks time such that dV/dt gives the rate of change in the hare density and dP/dt similarly for lynx; r, a, b and q are parameters thatdetermine how quickly hares reproduce (r), how many hares are eaten (a) for a given density of lynx and hare, how efficiently eaten hares are converted into lynx offspring (b) and how quickly lynx die when food is in short supply (q).</description>
+    </item>
+    
+    <item>
       <title>Preferences</title>
       <link>https://vvasuki.github.io/notes/skills/food/preferences/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
